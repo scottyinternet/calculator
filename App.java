@@ -11,7 +11,7 @@ public class App {
 
         String input = getString("enter your equation:  ");
 
-        while(keepGoing){
+        while(keepGoing == true){
 
             String[] stringArray = input.split(" ");
             
